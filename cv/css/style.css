@@ -1,0 +1,170 @@
+h1{
+    font-style: normal;
+    color: darkgreen;
+    font-family: 'Bitter',serif;
+}
+
+li{
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+    font-size: 35px;
+    color:darkslategrey;
+ }
+
+ p{
+    font-size: 25px;
+ }
+
+body{
+margin: 0;
+padding: 0;
+background-color: lightpink;
+
+}
+
+.topDiv{
+    text-align: center;
+    background-color:lavender;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.imgTopLeft{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border: 0;
+}
+
+
+.imgTopRight{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    border: 0;
+}
+
+.midDiv{
+    background-color: darkseagreen;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+   
+}
+
+.bottomDiv{
+    text-align: center;
+    padding-bottom: 10%;
+    padding-block-start: 5;
+    background-color:lavenderblush;
+
+}
+
+
+dt{
+    font-weight: bold;
+    color:#551a8b;    
+    font-size: 25px;  
+}
+
+dd{
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link{ 
+    text-decoration:none;
+ }
+
+a:hover{
+    text-decoration: underline;
+    font-size:32px;
+    color: darkorange;
+    background-color: lightyellow;
+
+ }
+
+ 
+
+ .button{
+    color:darkorange;
+    font: bold 16px Cambria;
+    text-decoration: wavy;
+    background-color: lightyellow;
+    padding: 10px 12px 10px 12px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right:1px solid;
+    border-bottom: 1px solid;
+ }
+
+ .formButton{
+        color:darkorange;
+        font: bold 16px Cambria;
+        text-decoration: wavy;
+        background-color: lightyellow;
+        padding: 4px 6px 4px 6px;
+        border-top: 1px solid;
+        border-left: 1px solid;
+        border-right:1px solid;
+        border-bottom: 1px solid;
+ }
+
+ form{
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+ }
+
+
+ input:hover{
+    text-decoration: underline;
+    font-size:large;
+ }
+
+
+ img{
+    border: 4px solid darkgreen;
+    padding:5px;
+
+ }
+
+ .justImg{
+    border: 0;
+    padding: 0;
+ }
+
+ hr {
+    border-style: dashed;
+    border-color: darkgreen;
+ }
+
+ #col{
+    column-count: 2;
+    float: inline-start;
+    
+ }
+
+ .skillCol{
+    float:none;
+    margin-right: 20px;
+    column-count: 2;
+    column-width: 50px;
+    column-rule-style: solid;
+ }
+
+ .formCol{
+    padding-block-start:5%;
+    padding-block-end: 5%;
+    float:inline-end;
+    column-count: 2;
+    text-align: center;
+ }
+
+
+
+ 
